@@ -1,0 +1,23 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  grid-template-rows: 5fr 20fr 5fr;
+  grid-gap: 10px;
+  height: 90vh;
+}
+
+.items{
+  display: inline-block;
+  background-color: orange;
+  border-style: solid;
+  text-align: center;
+}
+
+header{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+footer{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
